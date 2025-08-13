@@ -129,7 +129,7 @@ impl StylusNFT {
     }
 
     /// Getter for the art contract address
-    pub fn get_art_contract_address(&mut self) -> Result<Address, StylusNFTError> {
+    pub fn get_art_contract_address_mann_1(&mut self) -> Result<Address, StylusNFTError> {
         Ok(self.art_contract_address.get())
     }
 }
